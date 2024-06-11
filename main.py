@@ -9,7 +9,7 @@ def get_crypto_data(crypto_ids):
     response = requests.get(url)
     return response.json()
 
-# Streamlit app
+#setting up my streamlit app
 st.set_page_config(page_title="Crypto Dashboard", page_icon=":money_with_wings:", layout="wide")
 
 st.title("💰 Real-time Cryptocurrency Price Dashboard")
@@ -26,7 +26,9 @@ placeholder = st.empty()
 def format_price(price):
     return f"${price:.2f}"
 
+
 while True:
+    # Used a while loop to ensure the prices are refreshed.
     if selected_cryptos:
         crypto_data = get_crypto_data(selected_cryptos)
         

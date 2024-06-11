@@ -6,7 +6,9 @@ Real-time Data: Fetches the latest cryptocurrency prices and 24-hour percentage 
 Customizable View: Users can select which cryptocurrencies to monitor.
 Dynamic Refresh: Set the refresh interval to update prices at your preferred frequency.
 Visual Indicators: Displays upward (🔺) or downward (🔻) trends based on 24-hour price changes.
-Demo
+
+## CSV
+This application allows you to save that moments cryptocurrency prices and it will be exported as a csv file.
 
 ## Installation
 To run the app locally, follow these steps:
